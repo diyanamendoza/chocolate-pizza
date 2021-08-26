@@ -89,3 +89,7 @@ main {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+.article-p {
+    text-indent: 30px;
+}

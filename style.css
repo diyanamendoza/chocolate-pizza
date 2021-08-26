@@ -2,10 +2,52 @@
     box-sizing: border-box;
 }
 
-body {
-    
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-main {
-    
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    display:flex;
+    align-self: flex-start;
+}
+
+#blog-site-name {
+    font-family: 'Yellowtail', cursive;
+    margin: 0;
+    font-size: 2em;
+}
+
+#blog-tagline {
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    font-size: .8em;
+}
+
+#share-icons {
+    display:block;
+    margin-left: auto;
+}
+
+hr {
+    border: 0;
+    height: 2em;
+    background:url(./assets/hr-img.png) repeat-x;
+    width: 800px;
+}
+

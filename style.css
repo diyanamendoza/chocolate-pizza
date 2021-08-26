@@ -51,3 +51,40 @@ hr {
     width: 800px;
 }
 
+
+
+
+/* Footer Styles */
+.author-share-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.author-container{
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    max-width: 70%;
+    gap: 15px;
+}
+
+.author-container img{
+ width: 71px;
+ height: 68px;
+}
+
+.text-container{
+    /* max-width: 70%; */
+}
+
+.share-button{
+    background-color: rgb(187,112,85);
+    color: white;
+    border: none;
+    width: 20%;
+    height: 53px;
+    position: relative;
+    top: 18.72px;
+}
+

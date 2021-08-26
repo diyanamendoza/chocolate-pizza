@@ -92,4 +92,9 @@ main {
 
 .article-p {
     text-indent: 30px;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+#notebook-paper {
+    margin-top: 20px;
 }

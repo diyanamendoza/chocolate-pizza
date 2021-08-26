@@ -98,3 +98,20 @@ main {
 #notebook-paper {
     margin-top: 20px;
 }
+
+#ingredients-list {
+    background-image: url('./assets/list-bg.png');
+    width: 800px;
+    height: 271px;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+li {
+    font-family: 'Coming Soon', cursive;
+    color:rgb(68, 61, 52);
+}

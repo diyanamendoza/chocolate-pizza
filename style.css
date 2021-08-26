@@ -88,3 +88,19 @@ hr {
     top: 18.72px;
 }
 
+.footer-line-img-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.footer-line-img-container img{
+    width: 31px;
+    height: 33px;
+}
+
+.hr-line-footer{
+    background-color: rgb(153,153,153);
+    height: 1px;
+    width: 47.4%;
+}

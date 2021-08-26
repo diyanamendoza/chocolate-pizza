@@ -103,9 +103,11 @@ main {
     background-image: url('./assets/list-bg.png');
     width: 800px;
     height: 271px;
+    padding: 20px;
 }
 
 ul {
+    list-style: none;
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
@@ -114,7 +116,11 @@ ul {
 li {
     font-family: 'Coming Soon', cursive;
     color:rgb(68, 61, 52);
+}
 
+input {
+    margin-right: 10px;
+}
 
 
 /* Footer Styles */
@@ -138,6 +144,11 @@ li {
  height: 68px;
 }
 
+.text-container {
+    font-family: 'Kaisei Tokumin', serif;
+
+}
+
 .share-button{
     background-color: rgb(187,112,85);
     color: white;
@@ -146,6 +157,9 @@ li {
     height: 54px;
     position: relative;
     top: 18.72px;
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+
 }
 
 .footer-line-img-container{
@@ -173,6 +187,8 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: .8em;
 }
 
 .copyright-text{

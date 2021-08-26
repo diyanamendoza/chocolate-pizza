@@ -59,6 +59,7 @@ hr {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    /* margin-top: 20px; */
 }
 
 .author-container{
@@ -74,16 +75,12 @@ hr {
  height: 68px;
 }
 
-.text-container{
-    /* max-width: 70%; */
-}
-
 .share-button{
     background-color: rgb(187,112,85);
     color: white;
     border: none;
-    width: 20%;
-    height: 53px;
+    width: 185px;
+    height: 54px;
     position: relative;
     top: 18.72px;
 }
@@ -92,6 +89,7 @@ hr {
     display: flex;
     gap: 5px;
     align-items: center;
+    margin-top: 60px;
 }
 
 .footer-line-img-container img{
@@ -99,8 +97,23 @@ hr {
     height: 33px;
 }
 
+/* Could be a tad bit lighter */
 .hr-line-footer{
-    background-color: rgb(153,153,153);
+    background: rgb(245, 245, 245);
     height: 1px;
     width: 47.4%;
+}
+
+.copyright-container{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-text{
+    color: rgb(153,153,153);
+    padding: 0;
+    margin: 0;
 }

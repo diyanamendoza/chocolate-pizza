@@ -57,9 +57,11 @@ header {
 
 hr {
     border: 0;
-    height: 1em;
+    height: 4px;
     background:url(./assets/hr-img.png) repeat-x;
     width: 800px;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -104,6 +106,7 @@ main {
     width: 800px;
     height: 271px;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 ul {

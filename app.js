@@ -1,14 +1,18 @@
 
 
-  const checkbox = document.querySelector("input[type=checkbox]");
+  const checkbox = document.querySelectorAll("input[type=checkbox]");
 // SOLVE: https://www.codegrepper.com/code-examples/javascript/javascript+event+listener+checkbox
-  checkbox.addEventListener( 'change', function() {
-      if(this.checked) {
-          checkbox.parentElement.style.textDecoration = 'line-through';
-      } else {
-          checkbox.parentElement.style.textDecoration = 'none';
-      }
-  });
+  
+for (let i = 0; i < checkbox.length; i++) {
+  checkbox[i].addEventListener( 'change', function() {
+    if(this.checked) {
+        checkbox[i].parentElement.style.textDecoration = 'line-through';
+    } else {
+        checkbox[i].parentElement.style.textDecoration = 'none';
+    }
+});
+
+}
 
 
 
